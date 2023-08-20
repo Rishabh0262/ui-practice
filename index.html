@@ -5,6 +5,25 @@
   <title>CSS Positioning Exercise</title>
   <style>
     /* Write your code here */
+    .red-circle {
+      background: red;
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      position: absolute;
+      /* position: relative; */
+      margin-top: 150px;
+      margin-left: 250px;    }
+
+    .blue-box {
+      background: blue;
+      height: 300px;
+      width: 500px;
+      margin-top: 200px;
+      margin-left: 200px;
+    }
+    
+
   </style>
 </head>
 
@@ -17,3 +36,33 @@
 </body>
 
 </html>
+
+
+<!-- 
+
+Positions in css : attr. 'postion'
+
+  static : [Default]
+
+  relative : it will be ralative to its "Static" position. 
+              [postion where it is supposed to be when "positon : static"] OR at Default.
+
+
+
+  absolute : it works relative to the just-ancestor of that particular element.
+                [just-ancestor necessarily, to have "position : relative"]
+            else
+                [it will be relative to the Top-right corner.]    
+
+
+  fixed : it make the element fixed to the Top-Right corner of the window.
+          eg. chat-assistant in the websites.
+
+
+
+
+
+
+
+
+ -->
