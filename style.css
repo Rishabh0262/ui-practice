@@ -1,1 +1,37 @@
 /* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+
+/* CHILD selector */
+.box > .done {         /* [to be more precise/specific about the element.] This uses when we need to access the direct-child of the element. not grand-child nor great-grand-child */
+    color: red;
+}
+
+/* DESCENDENT selector */
+.list li {            /* [to be more precise/specific about the element.] when we need to access the grand-child or GG-child */
+    color: blue;
+}  
+
+/* CHAINING selector : for being specific to a particular set of element.  */
+li.done {
+    color: seagreen;
+}
+
+/* COMBINING COMBINERS : combining different kind of select shown above. */
+ul > p.done {        /* OR ul p.done */
+    font-size: 0.5rem;
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
