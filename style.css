@@ -14,8 +14,59 @@ h1 {
   font-size: 5rem;
 }
 
-footer {
+footer {  
   text-align: right;
   color: midnightblue;
 }
 
+.span1 {
+  color: midnightblue;
+}
+.card {
+  display: inline-block;
+  width: 45%;
+}
+.card > img {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+@media (max-width : 680px) {
+  .logo {
+    width: 100px;
+  }
+  .tile-image{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  /* .main {
+    display: block;
+  } */
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .card>p{
+    text-align: justify;
+  }
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  footer>p{
+    display: inline-block;
+    text-align: right;
+    /* justify-content: right; */
+  }
+
+}
