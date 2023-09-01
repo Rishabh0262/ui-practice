@@ -6,6 +6,22 @@
   <style>
     /* Write your code here */
     /* Each square should be 100px by 100px */
+    .container {
+      display: grid;
+      width: 100px;
+      grid-template-columns: repeat(8, 1fr);
+      /* grid-template-rows: repeat(8, 1fr); */
+    }
+    .container > div {
+      height: 100px;
+      width: 100px;
+    }
+    .white {
+      background-color: rgb(217, 236, 238);
+    }
+    .black {
+      background-color: black;
+    }
     /* My colours for white: #f0d9b5, black: #b58863 */
   </style>
 </head>
